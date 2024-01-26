@@ -1,0 +1,174 @@
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    
+}
+
+.main{
+    width: 320px;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%) );
+    text-align: center;
+    padding-top: 30px; 
+    border-radius: 20px;
+    position: relative;
+    right: -20px;
+}
+
+.first{
+    font-size: 18px;
+    color: hsl(241, 100%, 89%);
+    margin-bottom: 0px;
+}
+
+.circle{
+    
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    line-height: 1px;
+}
+
+h3{
+    color: white;
+    font-size: 25px;
+}
+
+h2{
+    color: white;
+    font-size: 50px;
+    padding-top: 70px;
+    font-weight:bold;
+    
+}
+
+h5{
+    color: hsl(241, 100%, 75%);
+    font-weight: lighter;
+    
+}
+
+h6{
+    padding-left: 55px;
+    padding-right: 55px;
+    font-size: 15px;
+    color: hsl(241, 100%, 89%);
+}
+
+.white{
+    background-color:white ;
+    padding-left: 40px;
+    padding-right: 30px;
+    width: 280px;
+    border: 1px solid #dfe1e5;
+    border-radius: 0px 20px 20px 0px;
+    display: flex;
+    flex-direction: column; 
+}
+
+h1{
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+
+.reaction{
+    display: flex;
+    width: auto;
+    color: hsl(0, 100%, 67%);
+    background-color: hsl(0, 100%, 95%);
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    border-radius: 10px;  
+}
+
+.memory{
+    display: flex;
+    width: auto;
+    color: hsl(39, 100%, 56%);
+    background-color: hsl(39, 100%, 95%);
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+.verbal{
+    display: flex;
+    width: auto;
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 95%);
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+.visual{
+    display: flex;
+    width: auto;
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(234, 85%, 95%);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+h4{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 10px;
+}
+.num{
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+
+
+p{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    color: hsl(241, 100%, 89%);
+}
+
+b{
+    color: black;
+    margin-top: auto;
+    margin-bottom: auto ;
+    
+}
+
+button{
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    
+}
+
+button:hover{
+    cursor: pointer;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+
+}
+
+
